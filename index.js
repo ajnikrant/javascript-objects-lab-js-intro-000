@@ -19,4 +19,3 @@ function deleteFromObjectByKey (recipes, breakfast){
   return newRecipes;
   console.log(recipes);
 }
-
