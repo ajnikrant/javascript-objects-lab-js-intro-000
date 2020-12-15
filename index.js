@@ -16,6 +16,6 @@ function deleteFromObjectByKey (recipes, dinner){
   return newRecipes;
 
   delete newRecipes[dinner];
-
+  return newRecipes;
   return recipes;
 }
