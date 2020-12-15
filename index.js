@@ -1,5 +1,6 @@
 var recipes = {
-  "breakfast": "oatmeal"
+  "breakfast": "oatmeal";
+  "lunch": "sandwich";
 }
 
 function updateObjectWithKeyAndValue(recipes, lunch, sandwich){
@@ -18,4 +19,9 @@ function deleteFromObjectByKey (recipes, breakfast){
   delete newRecipes.breakfast;
   return newRecipes;
   console.log(recipes);
+}
+
+
+function destructivelyDeleteObjectByKey(recipes, breakfast){
+  
 }
