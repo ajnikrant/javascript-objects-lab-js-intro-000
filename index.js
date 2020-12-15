@@ -10,3 +10,8 @@ function destructivelyUpdateObjectWithKeyAndValue(recipes, dinner, stew){
   recipes[dinner] = stew;
   return recipes;
 }
+
+function deleteFromObjectByKey (recipes, dinner){
+  delete recipes.dinner;
+  return recipes;
+}
