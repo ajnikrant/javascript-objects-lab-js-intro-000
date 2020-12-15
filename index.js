@@ -1,6 +1,6 @@
 var recipes = {
   "breakfast": "oatmeal",
-  "lunch": "sandwich";
+  "lunch": "sandwich"
 }
 
 function updateObjectWithKeyAndValue(recipes, lunch, sandwich){
