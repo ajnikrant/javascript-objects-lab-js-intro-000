@@ -1,7 +1,7 @@
-var recipes = {
-  "breakfast": "oatmeal",
-  "lunch": "sandwich"
-}
+//var recipes = {
+//  "breakfast": "oatmeal",
+//  "lunch": "sandwich"
+//}
 
 function updateObjectWithKeyAndValue(recipes, lunch, sandwich){
   //recipes[lunch] = sandwich;
