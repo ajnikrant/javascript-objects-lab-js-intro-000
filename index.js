@@ -1,5 +1,5 @@
 var recipes = {
-  "breakfast": "oatmeal";
+  "breakfast": "oatmeal",
   "lunch": "sandwich";
 }
 
