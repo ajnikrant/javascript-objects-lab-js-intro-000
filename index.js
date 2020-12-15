@@ -17,7 +17,6 @@ function deleteFromObjectByKey (recipes, breakfast){
   console.log(newRecipes);
 
   delete newRecipes.breakfast;
-  console.log(recipes);
 }
 
 
